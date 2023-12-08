@@ -1,10 +1,10 @@
 /** @format */
 
 function formatMessage(message, maxLength) {
-	let bebra = message.slice(0, maxLength) + "...";
+	let fullText = message.slice(0, maxLength) + "...";
 
 	if (message.length > maxLength) {
-		return bebra;
+		return fullText;
 	} else {
 		return message;
 	}
